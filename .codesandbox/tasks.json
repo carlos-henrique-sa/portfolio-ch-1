@@ -3,15 +3,15 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install"
+      "command": "yarn install"
     }
   ],
 
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
-    "npm run dev": {
+    "yarn dev": {
       "name": "Vite Dev",
-      "command": "npm run dev",
+      "command": "yarn dev",
       "runAtStart": true,
       "preview": {
         "port": 5173
